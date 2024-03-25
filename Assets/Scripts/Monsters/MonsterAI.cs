@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MonsterAI : MonoBehaviour
 {
+    [SerializeField] private float roamChangeDirectionFloat = 2f;
     private enum State
     {
         Roaming
@@ -27,7 +28,7 @@ public class MonsterAI : MonoBehaviour
         {
             Vector2 roamPos = GetRoamingPos();
             monsterPathFinding.MoveTo(roamPos);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(roamChangeDirectionFloat);
         }
     }
     private Vector2 GetRoamingPos()

@@ -4,6 +4,18 @@ using UnityEngine;
 
 public class SlashAim : MonoBehaviour
 {
+    private ParticleSystem ps;
+    private void Awake()
+    {
+        ps = GetComponent<ParticleSystem>();
+    }
+    private void Update()
+    {
+        if (ps && !ps.IsAlive())
+        {
+            DestroySeft();
+        }
+    }
     private void DestroySeft()
     {
         Destroy(gameObject);

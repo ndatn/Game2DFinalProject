@@ -2,24 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Singleton<PlayerController>
 {
-    public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
-    public static PlayerController Instance;
-    [SerializeField] private float moveSpeed = 4f;
+    public bool FacingLeft { get { return facingLeft; } }
+    [SerializeField] private float dashSpeed = 4f;
+    [SerializeField] private TrailRenderer trailRenderer;
+    [SerializeField] private float moveSpeed = 1f;
     [SerializeField] private PlayerControls playerControls;
-    private Vector2 movement;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    private Vector2 movement;
+    private float startingMoveSpeed;
     private bool facingLeft = false;
-    private void Awake()
+    private bool isDashing = false;
+
+    protected override void Awake()
     {
-        Instance = this;
+        base.Awake();
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+    private void Start()
+    {
+        playerControls.Combat.Dash.performed += _ => Dash();
+        startingMoveSpeed = moveSpeed;
+    }
+    private void Dash()
+    {
+        if (!isDashing)
+        {
+            isDashing = true;
+            moveSpeed *= dashSpeed;
+            trailRenderer.emitting = true;
+            StartCoroutine(EndDashRoutine());
+
+        }
     }
     private void OnEnable()
     {
@@ -50,13 +70,23 @@ public class PlayerController : MonoBehaviour
         Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
         if (mousePos.x < playerScreenPoint.x)
         {
-            spriteRenderer.flipX = true;
-            FacingLeft = true;
+            // spriteRenderer.flipX = true;
+            facingLeft = true;
         }
         else
         {
-            spriteRenderer.flipX = false;
-            FacingLeft = false;
+            // spriteRenderer.flipX = false;
+            facingLeft = false;
         }
+    }
+    private IEnumerator EndDashRoutine()
+    {
+        float dashTime = 0.2f;
+        float dashCD = 1f;
+        yield return new WaitForSeconds(dashTime);
+        moveSpeed = startingMoveSpeed;
+        trailRenderer.emitting = false;
+        yield return new WaitForSeconds(dashCD);
+        isDashing = false;
     }
 }
