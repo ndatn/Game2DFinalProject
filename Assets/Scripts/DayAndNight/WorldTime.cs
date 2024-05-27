@@ -1,16 +1,18 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace WorldTime
 {
-    public class WorldTime : MonoBehaviour
+    public class WorldTime : Singleton<WorldTime>
     {
         public event EventHandler<TimeSpan> WorldTimeChanged;
+        [SerializeField] public float TimeChanges = 25f;
         [SerializeField]
-        private float _dayLength;
-        private TimeSpan _currentTime;
-        private float _minuteLength => _dayLength / WorldTimeConstants.MinutesInDay;
+        public float _dayLength;
+        public TimeSpan _currentTime;
+
+        public float _minuteLength => _dayLength / WorldTimeConstants.MinutesInDay;
         private void Start()
         {
             StartCoroutine(AddMinute());

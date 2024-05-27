@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 364547910947592286}
   - component: {fileID: 5050663298684869365}
   - component: {fileID: 5392728869946856953}
+  - component: {fileID: 6579460832334062135}
   - component: {fileID: 3295785009802997041}
   m_Layer: 0
   m_Name: Chest
@@ -131,6 +132,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14614207, y: 0.13289689}
   m_EdgeRadius: 0
+--- !u!114 &6579460832334062135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405212513990362169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26b320eb027c64aa9805dbf16e2e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 8014612900646743700, guid: 0522c2af253232d4fa3d8875096e066a, type: 3}
+  healthGlobe: {fileID: 8014612900646743700, guid: 6e1684cead8fad34986547bd1b88aeb8, type: 3}
+  staminaGlobe: {fileID: 8014612900646743700, guid: 647bc51a45d50b4459c6739e8f44b52c, type: 3}
 --- !u!114 &3295785009802997041
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,20 +5,33 @@ using TMPro;
 using UnityEngine;
 namespace WorldTime
 {
-    public class WorldTimeDisplay : MonoBehaviour
+    public class WorldTimeDisplay : Singleton<WorldTimeDisplay>
     {
         [SerializeField]
         private WorldTime _worldTime;
         private TMP_Text _text;
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _text = GetComponent<TMP_Text>();
-            _worldTime.WorldTimeChanged += OnWorldTimeChanged;
+            if (_worldTime != null)
+            {
+                _worldTime.WorldTimeChanged += OnWorldTimeChanged;
+            }
+            else
+            {
+                Debug.LogWarning("WorldTime is not assigned in WorldTimeDisplay script.");
+            }
         }
+
+
 
         private void OnDestroy()
         {
-            _worldTime.WorldTimeChanged -= OnWorldTimeChanged;
+            if (_worldTime != null)
+            {
+                _worldTime.WorldTimeChanged -= OnWorldTimeChanged;
+            }
         }
         private void OnWorldTimeChanged(object sender, TimeSpan newTime)
         {

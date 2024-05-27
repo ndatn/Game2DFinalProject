@@ -5,17 +5,19 @@ using UnityEngine.Rendering.Universal;
 namespace WorldTime
 {
     [RequireComponent(typeof(Light2D))]
-    public class WorldLight : MonoBehaviour
+    public class WorldLight : Singleton<WorldLight>
     {
         private Light2D _light;
         [SerializeField] private WorldTime _worldTime;
         [SerializeField] Gradient _gradient;
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _light = GetComponent<Light2D>();
             _worldTime.WorldTimeChanged += OnWorldTimeChanged;
         }
+
 
         private void OnDestroy()
         {

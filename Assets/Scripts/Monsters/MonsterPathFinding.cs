@@ -3,28 +3,46 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterPathFinding : MonoBehaviour
+
+public class MonsterPathfinding : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 0.5f;
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private float moveSpeed = 2f;
+
+    private Rigidbody2D rb;
     private Vector2 moveDir;
-    private KnockBack knockBack;
+    private KnockBack knockback;
+    private SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
-        knockBack = GetComponent<KnockBack>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        knockback = GetComponent<KnockBack>();
         rb = GetComponent<Rigidbody2D>();
     }
+
     private void FixedUpdate()
     {
-        if (knockBack.GettingKnockedBack)
-        {
-            return;
-        }
+        if (knockback.GettingKnockedBack) { return; }
+
         rb.MovePosition(rb.position + moveDir * (moveSpeed * Time.fixedDeltaTime));
+
+        if (moveDir.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX = false;
+        }
     }
-    public void MoveTo(Vector2 targetPosstion)
+
+    public void MoveTo(Vector2 targetPosition)
     {
-        moveDir = targetPosstion;
+        moveDir = targetPosition;
+    }
+
+    public void StopMoving()
+    {
+        moveDir = Vector3.zero;
     }
 }

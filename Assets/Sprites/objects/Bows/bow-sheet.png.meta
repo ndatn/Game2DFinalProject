@@ -1,0 +1,4725 @@
+fileFormatVersion: 2
+guid: 4d3e8b6a09d51d74b8e0d2cb183a67cd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bow-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4333764f21898bb40ad2e2cca818ff54
+      internalID: 665752716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77347edbe879094db1dc68023e6dfb2
+      internalID: 950228339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8217080be3503a34cb51b618bf06a039
+      internalID: 925163489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9a83d497a36f84083dfd82c1af4421
+      internalID: 1025054731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5323c79b5c5964486095667fcc3514
+      internalID: -723443641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d41add8c0f1fe459c95e347d42d2b9
+      internalID: -798566582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b3ee973429bce4782951233f72f8c6
+      internalID: -1734425405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a18a63e26fc9d041921023f4f052257
+      internalID: -1714122684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a30b5554bab3a4fab3c734e1cebb4e
+      internalID: -668199958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b8aa0fc7b260c44aaf03b9b1f84891
+      internalID: -1718063740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eab05aa527c264428b0f74a84e6078d
+      internalID: 1406839137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d48eec644835704eb8700d7e873a6f1
+      internalID: -555032101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f21b1c1280300f48bf2191472317ec6
+      internalID: 1039167033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a853f9562f137e4cb1082bc6b3e3bbe
+      internalID: -1271241097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46a6c365bd8eab4793d44b3a400947c
+      internalID: -1447028811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65092779dc9346f4cab35195e01476b0
+      internalID: -2116329455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd331a9fcf7fb054c92b93a0806187b9
+      internalID: 895131761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7629b7c047732bb4f87fbdf70f6e9dda
+      internalID: -1541681172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 338.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6510e520960104483513bd1fb2bf21
+      internalID: 601008645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa441357cb0396542836903eb9799b15
+      internalID: -825484369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe389afbbcf3d14aac159a77835b6f0
+      internalID: 1951809236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4326a631e600143bca5ee3408b3438
+      internalID: -2026911506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5768acc1ed3f449af2e2e380771063
+      internalID: 2104282925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5908d9a17c30c458ee0b76e0534015
+      internalID: 168815666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1a37af953a83c4b894fa40534ec842
+      internalID: 1941439267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86094ef6824f3cc49a2f651a4223be25
+      internalID: 1882349073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4f7832df2a0554ea43b6f045b95c48
+      internalID: 1950582621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d53c91d99ed5840a76136e0182859c
+      internalID: -1171403319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ceecdfc35b0c14b84adf619b585c44
+      internalID: -202158663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dea1e671b9347142819469dc683acc8
+      internalID: -482258239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3020a1fc35727ad47b8e5a58ebe00789
+      internalID: 836017289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6636633439c78b4895597e686aa2e7c
+      internalID: 1443528883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a78c6fbede81b4e93c881ea7f60438
+      internalID: -1968438052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8967e88cd1fb37d48ae9bdc7a3ed0c18
+      internalID: 1742276111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c247315ae4e84b458cd717e1f9ecf7e
+      internalID: 1253349974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f1296da117bbe4f9fa2cc003a7b33a
+      internalID: 539181105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bb86dce99b28e4a9a81ab0dc8059fb
+      internalID: 2063136598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 305.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e2527554c64fd4d912889b370eefac
+      internalID: -545136521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3891267466ec8468a9bbee3816901c
+      internalID: -690674191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e43420767399e44ea97eeba760f85da
+      internalID: -992660890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be1c18a884e944a89d87dc8a3addea
+      internalID: -585265744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5029502ff801da845b33b3f5a6529a1d
+      internalID: -713138035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b73adb7611d8e42a3f8503273352af
+      internalID: 87812903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35294926cc5b1744892d90da75d264c4
+      internalID: -374698452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b99bb2463e85e4f8c4626f11faeb9c
+      internalID: -2110515864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7ab10b5c4b9c24f8f9154cabf04c1c
+      internalID: 885444359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef56032c5ef89b34ea00914891f64abf
+      internalID: 1161708012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8407572bd173b034291d23586571c2be
+      internalID: -56695791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cff7d6e8e7b83d4b9b25bc9c848229f
+      internalID: 1963640211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5b10e4f094ca64e83de3e7c9e6fece
+      internalID: 645223437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f39da5c9ba3f94fa5ab26c608847c2
+      internalID: 1427843379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afec9428faf51894aad2873a6addef64
+      internalID: 1206621713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b9041addc25d647a3c8e4f29698c5e
+      internalID: -2126186564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4614852df607d54d9a4aae982e4cf6e
+      internalID: -214443517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df73cae25f6ed545b9a27a54bf30313
+      internalID: -721893390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf0e15f10705844daf3be29ffe4d6fd
+      internalID: 1043195117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 272.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5646af4d16f89db47b4800c264ce490d
+      internalID: 1436802253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc8898a7bedb3248be78bc44f8ce7ca
+      internalID: -284534471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fbd6f8052091e4eb2b090956dd1417
+      internalID: 1944056658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10472cc2d33d6948aecf93b64897639
+      internalID: 824603982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7dce6a81f331a42a1952812e2bf04d
+      internalID: 230140060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cc7eaaf5b4a9449aecfef2e5761351
+      internalID: -73083914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb1fb853c22ad84a8c70664cea78a23
+      internalID: -1521115767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6707ac4638618a46afe2d35d698931f
+      internalID: -431362909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a6e0c551b6d0d4d84e0c6c6d2f2323
+      internalID: -602449826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8575741d3955f47429ac28745b6a6068
+      internalID: 217939692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ee7a0e508814c469d065f489378972
+      internalID: -753250346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491797dcccdb8574197b9d50d0c16d9f
+      internalID: 2095584616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c5d75e0dafcf44b80ef1be38577cef
+      internalID: -240231718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0c711df42cac54ab94bef39bad2504
+      internalID: -833000744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f35f93ab402bcb48b1e2c606d5c0f3a
+      internalID: 609653013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240aa43f7830b340ae8212f5e04a10d
+      internalID: -824708804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d236d217d4d08274d8f085408102a02d
+      internalID: 1936348797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231885c7f4d8c16469f4e8ccb88d8836
+      internalID: 346260000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37580ed7e7c3f014d9ef5e133bed958e
+      internalID: -2048178469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 239.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cad884a7b22c2469308f8841d47ce2
+      internalID: -1146640457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095eb3117b19aac4bab0587a6d1d26d3
+      internalID: -340240762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bc20fba3247ac4bb3d90aaa55aa5b8
+      internalID: 944974965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee74f555d4061ac469ea4d485957ce27
+      internalID: 1401305824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e2246181ea82a48873bb29e7af2bc8
+      internalID: 1278236415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d812a44b4579d2549800fd2474cd8328
+      internalID: 742975191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701528144c6567f49b12b7a81c9613bb
+      internalID: 347277923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8dc66b6d85a6348802bf73221b8493
+      internalID: -1626105301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebfeb951d514374592a155d70b987c0
+      internalID: -1414764081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3688efc63bb552a40a4b824276301049
+      internalID: 107538259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5d0d3fed59cf24a9e7c3232598286d
+      internalID: -143596899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b19acebb3ae81429b35742f8c66982
+      internalID: -55756509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541aed639ef361e4fa175cd207dc0a30
+      internalID: -1911923765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78275aff303196644b6e8e2351d555df
+      internalID: 953059145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6f8ea681c32b441b546f984324a3c6
+      internalID: -269368692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9708111ea864440882af330b21f1b0
+      internalID: 1653192842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612fe51581c90fb41985c6a0acf302e1
+      internalID: -1363871463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a613719f492524da6e6492708d734b
+      internalID: 1145665130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cc7ef76bee75141ac9076c7fcbdc34
+      internalID: 974451602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 206.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6471b9c4e3bf9c74db9f6078b6a31e73
+      internalID: 1025921538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a1512c861009428ad5fb86645118d
+      internalID: -677646746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46542d06f4f55c4893d176018a27468
+      internalID: 965044723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_97
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee213561aa16d44d8365a8d988d0615
+      internalID: -430373533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_98
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb4d8ec7ddf2414baa1ddfceb835277
+      internalID: -1276958683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_99
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4836c9800398749babb38760b5370d
+      internalID: -1928220204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_100
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b155e64f647dbf488d29243ef8459d7
+      internalID: 2100005380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_101
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39b4aa504e7f9c49ba29f878ba7ebc1
+      internalID: 1371361171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_102
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41b8bf06b71c6448b61bd793263bc99
+      internalID: -469623210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_103
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1bb484448863f41b305bb825047ef3
+      internalID: -222562782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_104
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d33acf719561e4d9618d2357d1e477
+      internalID: -1114700445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_105
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c565f076da29643a383c102b94938c
+      internalID: -206540402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_106
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda4d00226765b540a8c2aa5478be4cb
+      internalID: -384421945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_107
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505e822adad41e94f995150127498a29
+      internalID: 255404405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_108
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f4e13c0e6a29146b6b56685f4645d9
+      internalID: 1924849148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_109
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0916f37b6dc60e4394d1cd8fd6ec64a
+      internalID: -1624356249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_110
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6dc4bdead32d849b18d7724a3541b5
+      internalID: -528068637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_111
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcc6b314638be94daea6864b776f4dc
+      internalID: -1027332144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_112
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bef4cbfe9205be48ac600585dd1f992
+      internalID: 1456284989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_113
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 173.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e96fc92a2815447982d0ea5f1d87d9
+      internalID: -1578083113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34be9cc5c0d53714da28e370a7ddbd17
+      internalID: -451736416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_115
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ee7ac55bcdd0642862809448ce4398
+      internalID: 700037497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_116
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfadd9fe45217d4c84219b5bdb8cddf
+      internalID: 1999927208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_117
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0276c5b6e3011a2409d7789a478a4be4
+      internalID: -1047601942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_118
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbc501d56daf504792792d6253809a2
+      internalID: 961038024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_119
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dddcb5b41bad59448e4a65f35e648d7
+      internalID: -808941294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_120
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f325c31930e9ff44bbb57e25aafa5f9c
+      internalID: -838104603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_121
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e31868bbe75dd44db70b0f6f6596263
+      internalID: 1203435663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_122
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1387e8374e5b4f489c23b2003672f2b
+      internalID: 762351894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_123
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb2151b255d38e4594cd505bee168a4
+      internalID: -1732445534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_124
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b19782e72bc5cc4c923ef54e6d2baae
+      internalID: -1958351086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_125
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642b9fb7147510b40b382f584120022e
+      internalID: -1569284989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_126
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee24b85a2b58864493947500a1886d8
+      internalID: -105915369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_127
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36256f339cde644caf3cf37e65e336e
+      internalID: -1071076226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_128
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1650f79de9cfb469a58fc5190afeb8
+      internalID: 1077303612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_129
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d7a922f0a25e8409e98b1d40578a7f
+      internalID: 959189961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_130
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9afaeae2595504693509cccc6a43f9
+      internalID: 1823008612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_131
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7615f7345432c4b8f206a79b71b5aa
+      internalID: -809704955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_132
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 140.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79108d4de1fe45247aae66248448f81e
+      internalID: 1245695190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e1d29bc254e0e4c96b078d547dc38e
+      internalID: -334761752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_134
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d9a22904b1e9d47b00cdba2b5eab0c
+      internalID: -2027656251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_135
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44a8d8f71f26934c9c1d7dc48cdc1ce
+      internalID: 885882553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_136
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9c2041bf027784cbd2b91339aa4f9d
+      internalID: -227209174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_137
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b184c8b1ee9ea341a97f95106893344
+      internalID: -1423784276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_138
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97edec9c035a77458a2ac2016cb643f
+      internalID: 675148294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_139
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d132fa75ccdce42bf78302a64010c1
+      internalID: -235624939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_140
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9296e2136cf7a45a050bd5c6166e7b
+      internalID: -86641825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_141
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2981f16b5bd6aa45b7ce41d4578e7d7
+      internalID: 1494795849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_142
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c755ed3e677fa4698426041f57a9e8
+      internalID: 1664723707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_143
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080c9ae3cf7cc5d4397f880ee4e6027a
+      internalID: 1207100829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_144
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb024716f4c9ea844982f59ef93d7dbf
+      internalID: -107957806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_145
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552e70ad4813d164a8370cdb8a57ac5f
+      internalID: 709967031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_146
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42775706e7ae104e9e6c9b71f6150fc
+      internalID: 1503271987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_147
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b849f663edf8b45a855cbd7cd068bf
+      internalID: 272969982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_148
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c9b6222ac3f054ea6bfc2cee8d3e21
+      internalID: 666125332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_149
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f4ed50c9fbac46a41057b47436391
+      internalID: 736891197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_150
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0879471ff3bf0b54eb638084e6fb8147
+      internalID: -750749241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_151
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 107.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7453ac483da3b364fa38511908ea8fde
+      internalID: 1809578971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea0a3e98e05964a8fa02691d8f8b8d
+      internalID: -713683864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_153
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946de33c384fcd04da3f937b70602d3f
+      internalID: 200918000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_154
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d9c0f75f1ec0641b365c2f8c2d9553
+      internalID: -1418703606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_155
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7ba4bea8e95c94dab8411b4a3da64f
+      internalID: -1920058195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_156
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad9438ab74250e4a8cb4d28783c2f5e
+      internalID: -1624748665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_157
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1ff352b86918c459329c4993f27c6d
+      internalID: -1566225050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_158
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55532bbeb09b125498f63b97850bae6e
+      internalID: 682771463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_159
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723f77dfd63cdad47b6887e189233d35
+      internalID: -739796851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_160
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9c3741b1f2b244da223e8c8d543963
+      internalID: -1228386116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_161
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95da5fb1aa0b0c42a6924994be91524
+      internalID: -954191493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_162
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f757ec07c395a5243a253eda05de645e
+      internalID: 221410928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_163
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dd209a876552442bdafba8e55b07cd
+      internalID: -1320824056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_164
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bfc425629c9234886ff487ff457f3d
+      internalID: -1595377612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_165
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a99ca1072b79704482debb1cc072af9
+      internalID: -2124689413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_166
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece3ddc0f12094345867d2f0f120ece3
+      internalID: 498805007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_167
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4a6926826512140972721090b94246
+      internalID: -2064054002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_168
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567165be07f2edf47a78fc7b75722709
+      internalID: -1116927963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_169
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3e5d506614e3e41945e2124a820620
+      internalID: -144875422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_170
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 74.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ee2675332390c499819d63def0c151
+      internalID: -1646369429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c9b6aaf0c54584782ba5bdaf9648a4
+      internalID: 1047801884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d773866a29a2da0428cf9692fcafe33f
+      internalID: 1749793062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_173
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6d393d7f8f39a468a93f2ce3a91db4
+      internalID: 1987299328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_174
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1cc406725b9f146950198c2e51c815
+      internalID: 1365534580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_175
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1b31d7a3ea79c4dbb3a7327d93ec19
+      internalID: 416217267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_176
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9169e153bed7141bd6b17b8f95e831
+      internalID: -681704400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_177
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7bffcf36111bf4b82984e121bac376
+      internalID: 1362593599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_178
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70ef9805b6ef8b4691aae62f29ae5cd
+      internalID: -997533491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_179
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5339a977a7c4f104ca9a6d59c01c2c4b
+      internalID: -268399349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_180
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac26cf588ee54e47bd4ffedf812f2b2
+      internalID: 1133449208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_181
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858348ebae6089c41917a4fe7cd4499d
+      internalID: -1269317640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_182
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d785db0dd9e87bb469939eeba6e27a2a
+      internalID: -332486384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_183
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239867f7b308d584086df74f6c00c2f8
+      internalID: -807470433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_184
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecc1960808555148b318fa62b3c1195
+      internalID: -1724932990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_185
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c29743dbb9a29040912468c6c7a4c0f
+      internalID: -680567088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_186
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce13cfffe3420ce4f96519fd1b182e67
+      internalID: -1398223184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_187
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd6a1ff1a23fb24aa6f0c640a0cdf73
+      internalID: -1098417649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_188
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a493fc68ef8940b62ccd97835ce01
+      internalID: 2114939583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_189
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 41.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153f64f30df71ce46831334d141fb8e0
+      internalID: 1019630306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99b9963b29aa7b40a8f6fe9faef4e60
+      internalID: -1560983430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_191
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70694fc3edefcdd409eae414b742b8e0
+      internalID: -552507162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_192
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c7573425e18b54cbfcaaaad03a90b4
+      internalID: 1886733449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_193
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106274a36194fc9428e149360a6fa53d
+      internalID: 1308516377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_194
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea49c6ec17d6fa44989d0c3f8da2bc09
+      internalID: 1541370130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_195
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09bfbcf04defae47afd7d0df7abafc1
+      internalID: 1212700144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_196
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fd172c701f14f43a1604c6483ae2ee
+      internalID: 573004122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_197
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76460092b0650a42a099ddca4c4bd7c
+      internalID: -1483023419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_198
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af09ca6b6201c341ba16cfbca29664c
+      internalID: 2060544901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_199
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f0ba34b97c805428d9a6b313048ff5
+      internalID: 664310779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_200
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098dd67da8936b94ab4a3deb593bd6ca
+      internalID: 36819741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_201
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b29d7859c443a499379e4231763699
+      internalID: -1136812660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_202
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfc966d130ee54449a07d0fadf71bd9
+      internalID: 1263419507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_203
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc36c893a32d5e4ca3e68c57e277f74
+      internalID: -670089104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_204
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48148bfe9ab221f4a8b40846f29b5254
+      internalID: 266875512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_205
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6ffa8ced425784198598bf8e2947cb
+      internalID: -2025652248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_206
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d0344265f1f2347abbfe7366d9191e
+      internalID: -1607563262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_207
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3cf70b98ed8414d9392751628607ee
+      internalID: -1956966637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow-sheet_208
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 8.18182
+        width: 17.894737
+        height: 33.81818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96923d2bd3b6d6d4ba99286dbc80d2a9
+      internalID: 1973130060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bow-sheet_0: 665752716
+      bow-sheet_1: 950228339
+      bow-sheet_10: 1406839137
+      bow-sheet_100: 2100005380
+      bow-sheet_101: 1371361171
+      bow-sheet_102: -469623210
+      bow-sheet_103: -222562782
+      bow-sheet_104: -1114700445
+      bow-sheet_105: -206540402
+      bow-sheet_106: -384421945
+      bow-sheet_107: 255404405
+      bow-sheet_108: 1924849148
+      bow-sheet_109: -1624356249
+      bow-sheet_11: -555032101
+      bow-sheet_110: -528068637
+      bow-sheet_111: -1027332144
+      bow-sheet_112: 1456284989
+      bow-sheet_113: -1578083113
+      bow-sheet_114: -451736416
+      bow-sheet_115: 700037497
+      bow-sheet_116: 1999927208
+      bow-sheet_117: -1047601942
+      bow-sheet_118: 961038024
+      bow-sheet_119: -808941294
+      bow-sheet_12: 1039167033
+      bow-sheet_120: -838104603
+      bow-sheet_121: 1203435663
+      bow-sheet_122: 762351894
+      bow-sheet_123: -1732445534
+      bow-sheet_124: -1958351086
+      bow-sheet_125: -1569284989
+      bow-sheet_126: -105915369
+      bow-sheet_127: -1071076226
+      bow-sheet_128: 1077303612
+      bow-sheet_129: 959189961
+      bow-sheet_13: -1271241097
+      bow-sheet_130: 1823008612
+      bow-sheet_131: -809704955
+      bow-sheet_132: 1245695190
+      bow-sheet_133: -334761752
+      bow-sheet_134: -2027656251
+      bow-sheet_135: 885882553
+      bow-sheet_136: -227209174
+      bow-sheet_137: -1423784276
+      bow-sheet_138: 675148294
+      bow-sheet_139: -235624939
+      bow-sheet_14: -1447028811
+      bow-sheet_140: -86641825
+      bow-sheet_141: 1494795849
+      bow-sheet_142: 1664723707
+      bow-sheet_143: 1207100829
+      bow-sheet_144: -107957806
+      bow-sheet_145: 709967031
+      bow-sheet_146: 1503271987
+      bow-sheet_147: 272969982
+      bow-sheet_148: 666125332
+      bow-sheet_149: 736891197
+      bow-sheet_15: -2116329455
+      bow-sheet_150: -750749241
+      bow-sheet_151: 1809578971
+      bow-sheet_152: -713683864
+      bow-sheet_153: 200918000
+      bow-sheet_154: -1418703606
+      bow-sheet_155: -1920058195
+      bow-sheet_156: -1624748665
+      bow-sheet_157: -1566225050
+      bow-sheet_158: 682771463
+      bow-sheet_159: -739796851
+      bow-sheet_16: 895131761
+      bow-sheet_160: -1228386116
+      bow-sheet_161: -954191493
+      bow-sheet_162: 221410928
+      bow-sheet_163: -1320824056
+      bow-sheet_164: -1595377612
+      bow-sheet_165: -2124689413
+      bow-sheet_166: 498805007
+      bow-sheet_167: -2064054002
+      bow-sheet_168: -1116927963
+      bow-sheet_169: -144875422
+      bow-sheet_17: -1541681172
+      bow-sheet_170: -1646369429
+      bow-sheet_171: 1047801884
+      bow-sheet_172: 1749793062
+      bow-sheet_173: 1987299328
+      bow-sheet_174: 1365534580
+      bow-sheet_175: 416217267
+      bow-sheet_176: -681704400
+      bow-sheet_177: 1362593599
+      bow-sheet_178: -997533491
+      bow-sheet_179: -268399349
+      bow-sheet_18: 601008645
+      bow-sheet_180: 1133449208
+      bow-sheet_181: -1269317640
+      bow-sheet_182: -332486384
+      bow-sheet_183: -807470433
+      bow-sheet_184: -1724932990
+      bow-sheet_185: -680567088
+      bow-sheet_186: -1398223184
+      bow-sheet_187: -1098417649
+      bow-sheet_188: 2114939583
+      bow-sheet_189: 1019630306
+      bow-sheet_19: -825484369
+      bow-sheet_190: -1560983430
+      bow-sheet_191: -552507162
+      bow-sheet_192: 1886733449
+      bow-sheet_193: 1308516377
+      bow-sheet_194: 1541370130
+      bow-sheet_195: 1212700144
+      bow-sheet_196: 573004122
+      bow-sheet_197: -1483023419
+      bow-sheet_198: 2060544901
+      bow-sheet_199: 664310779
+      bow-sheet_2: 925163489
+      bow-sheet_20: 1951809236
+      bow-sheet_200: 36819741
+      bow-sheet_201: -1136812660
+      bow-sheet_202: 1263419507
+      bow-sheet_203: -670089104
+      bow-sheet_204: 266875512
+      bow-sheet_205: -2025652248
+      bow-sheet_206: -1607563262
+      bow-sheet_207: -1956966637
+      bow-sheet_208: 1973130060
+      bow-sheet_21: -2026911506
+      bow-sheet_22: 2104282925
+      bow-sheet_23: 168815666
+      bow-sheet_24: 1941439267
+      bow-sheet_25: 1882349073
+      bow-sheet_26: 1950582621
+      bow-sheet_27: -1171403319
+      bow-sheet_28: -202158663
+      bow-sheet_29: -482258239
+      bow-sheet_3: 1025054731
+      bow-sheet_30: 836017289
+      bow-sheet_31: 1443528883
+      bow-sheet_32: -1968438052
+      bow-sheet_33: 1742276111
+      bow-sheet_34: 1253349974
+      bow-sheet_35: 539181105
+      bow-sheet_36: 2063136598
+      bow-sheet_37: -545136521
+      bow-sheet_38: -690674191
+      bow-sheet_39: -992660890
+      bow-sheet_4: -723443641
+      bow-sheet_40: -585265744
+      bow-sheet_41: -713138035
+      bow-sheet_42: 87812903
+      bow-sheet_43: -374698452
+      bow-sheet_44: -2110515864
+      bow-sheet_45: 885444359
+      bow-sheet_46: 1161708012
+      bow-sheet_47: -56695791
+      bow-sheet_48: 1963640211
+      bow-sheet_49: 645223437
+      bow-sheet_5: -798566582
+      bow-sheet_50: 1427843379
+      bow-sheet_51: 1206621713
+      bow-sheet_52: -2126186564
+      bow-sheet_53: -214443517
+      bow-sheet_54: -721893390
+      bow-sheet_55: 1043195117
+      bow-sheet_56: 1436802253
+      bow-sheet_57: -284534471
+      bow-sheet_58: 1944056658
+      bow-sheet_59: 824603982
+      bow-sheet_6: -1734425405
+      bow-sheet_60: 230140060
+      bow-sheet_61: -73083914
+      bow-sheet_62: -1521115767
+      bow-sheet_63: -431362909
+      bow-sheet_64: -602449826
+      bow-sheet_65: 217939692
+      bow-sheet_66: -753250346
+      bow-sheet_67: 2095584616
+      bow-sheet_68: -240231718
+      bow-sheet_69: -833000744
+      bow-sheet_7: -1714122684
+      bow-sheet_70: 609653013
+      bow-sheet_71: -824708804
+      bow-sheet_72: 1936348797
+      bow-sheet_73: 346260000
+      bow-sheet_74: -2048178469
+      bow-sheet_75: -1146640457
+      bow-sheet_76: -340240762
+      bow-sheet_77: 944974965
+      bow-sheet_78: 1401305824
+      bow-sheet_79: 1278236415
+      bow-sheet_8: -668199958
+      bow-sheet_80: 742975191
+      bow-sheet_81: 347277923
+      bow-sheet_82: -1626105301
+      bow-sheet_83: -1414764081
+      bow-sheet_84: 107538259
+      bow-sheet_85: -143596899
+      bow-sheet_86: -55756509
+      bow-sheet_87: -1911923765
+      bow-sheet_88: 953059145
+      bow-sheet_89: -269368692
+      bow-sheet_9: -1718063740
+      bow-sheet_90: 1653192842
+      bow-sheet_91: -1363871463
+      bow-sheet_92: 1145665130
+      bow-sheet_93: 974451602
+      bow-sheet_94: 1025921538
+      bow-sheet_95: -677646746
+      bow-sheet_96: 965044723
+      bow-sheet_97: -430373533
+      bow-sheet_98: -1276958683
+      bow-sheet_99: -1928220204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

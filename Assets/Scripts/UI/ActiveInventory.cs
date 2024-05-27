@@ -2,37 +2,92 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActiveInventory : MonoBehaviour
+
+
+public class ActiveInventory : Singleton<ActiveInventory>
 {
-    private int activeSlotIndexNumber = 0;
+    private int activeSlotIndexNum = 0;
+
     private PlayerControls playerControls;
-    private void Awake()
+
+    protected override void Awake()
     {
+        base.Awake();
+
         playerControls = new PlayerControls();
     }
+
     private void Start()
     {
         playerControls.Inventory.KeyBoard.performed += ctx => ToggleActiveSlot((int)ctx.ReadValue<float>());
     }
+
     private void OnEnable()
     {
         playerControls.Enable();
-
     }
+
+    public void EquipStartingWeapon()
+    {
+        ToggleActiveHighlight(0);
+    }
+
     private void ToggleActiveSlot(int numValue)
     {
-        ToggleActiveHightLight(numValue - 1);
+        ToggleActiveHighlight(numValue - 1);
     }
-    private void ToggleActiveHightLight(int indexNum)
+
+    private void ToggleActiveHighlight(int indexNum)
     {
-        activeSlotIndexNumber = indexNum;
+        if (this == null)
+        {
+            return;
+        }
+
+        activeSlotIndexNum = indexNum;
+
         foreach (Transform inventorySlot in this.transform)
         {
-            inventorySlot.GetChild(0).gameObject.SetActive(false);
-
+            if (inventorySlot != null)
+            {
+                inventorySlot.GetChild(0)?.gameObject.SetActive(false);
+            }
         }
-        this.transform.GetChild(indexNum).GetChild(0).gameObject.SetActive(true);
+
+        Transform activeSlot = this.transform.GetChild(indexNum);
+        if (activeSlot != null)
+        {
+            activeSlot.GetChild(0)?.gameObject.SetActive(true);
+        }
+
+        ChangeActiveWeapon();
     }
 
+    private void ChangeActiveWeapon()
+    {
 
+        if (ActiveWeapon.Instance.CurrentActiveWeapon != null)
+        {
+            Destroy(ActiveWeapon.Instance.CurrentActiveWeapon.gameObject);
+        }
+
+        Transform childTransform = transform.GetChild(activeSlotIndexNum);
+        if (childTransform != null)
+        {
+            InventorySlot inventorySlot = childTransform.GetComponentInChildren<InventorySlot>();
+            if (inventorySlot != null)
+            {
+                WeaponInfo weaponInfo = inventorySlot.GetWeaponInfo();
+                if (weaponInfo != null)
+                {
+                    GameObject weaponToSpawn = weaponInfo.weaponPrefab;
+                    GameObject newWeapon = Instantiate(weaponToSpawn, ActiveWeapon.Instance.transform);
+                    ActiveWeapon.Instance.NewWeapon(newWeapon.GetComponent<MonoBehaviour>());
+                    return;
+                }
+            }
+        }
+
+        ActiveWeapon.Instance.WeaponNull();
+    }
 }

@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5921306235404901235
 Transform:
   m_ObjectHideFlags: 0
@@ -98,13 +98,17 @@ GameObject:
   - component: {fileID: 1643931975542294522}
   - component: {fileID: -902243996403396875}
   - component: {fileID: 8469046029622733581}
+  - component: {fileID: 4214467038973594328}
+  - component: {fileID: 1506226474124393632}
   - component: {fileID: 9046681018391593917}
   - component: {fileID: 958736062926923835}
   - component: {fileID: 46564064362378410}
   - component: {fileID: -73597618536571999}
+  - component: {fileID: 6283643181075426529}
+  - component: {fileID: 8407958169289963892}
   m_Layer: 0
   m_Name: slime_0
-  m_TagString: Untagged
+  m_TagString: Slime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,9 +286,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd2712b4c98f9ec40b13553a4fc32589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dieEffectPrefab: {fileID: 4840547168738730088, guid: cb8b9763baba0534d996f215cc4ba0b3, type: 3}
-  startingHealth: 3
+  startingHealth: 4
+  deathVFXPrefab: {fileID: 4840547168738730088, guid: cb8b9763baba0534d996f215cc4ba0b3, type: 3}
   knockBackThrust: 15
+--- !u!114 &4214467038973594328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385075093682997173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38d23cf9e1536c4aa546b94ccd8b47b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3248254999660213559, guid: 71280b71e50181548b35dd5b20d405c1, type: 3}
+  bulletMoveSpeed: 1
+  burstCount: 12
+  projectilesPerBurst: 10
+  angleSpread: 159
+  startingDistance: 0.1
+  timeBetweenBursts: 0.3
+  restTime: 1
+  stagger: 1
+  oscillate: 1
+--- !u!114 &1506226474124393632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385075093682997173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007439d4bb07e7444b3d6def340333d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &9046681018391593917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,7 +335,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 732b4e68065e3214a8635c1b29f51e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roamChangeDirectionFloat: 2
+  roamChangeDirFloat: 2
+  attackRange: 2
+  monsterType: {fileID: 4214467038973594328}
+  attackCooldown: 2
+  stopMovingWhileAttacking: 1
 --- !u!114 &958736062926923835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,7 +353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
-  rb: {fileID: 0}
 --- !u!114 &46564064362378410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fc490629fe3dfb45a124f4a9f930dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackTime: 0.1
+  knockbackTime: 0.2
 --- !u!114 &-73597618536571999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,4 +379,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WhiteFlashMaterial: {fileID: 2100000, guid: b21fa5d98d8deb14bbe7695e19ef524c, type: 2}
-  restoreDefaultMaterialTime: 0.1
+  restoreDefaultMaterialTime: 0.2
+--- !u!210 &6283643181075426529
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385075093682997173}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
+--- !u!114 &8407958169289963892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385075093682997173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26b320eb027c64aa9805dbf16e2e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 8014612900646743700, guid: 0522c2af253232d4fa3d8875096e066a, type: 3}
+  healthGlobe: {fileID: 8014612900646743700, guid: 6e1684cead8fad34986547bd1b88aeb8, type: 3}
+  staminaGlobe: {fileID: 8014612900646743700, guid: 647bc51a45d50b4459c6739e8f44b52c, type: 3}
