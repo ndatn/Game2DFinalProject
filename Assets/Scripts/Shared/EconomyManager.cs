@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class EconomyManager : Singleton<EconomyManager>
+public class EconomyManager : Singleton<EconomyManager> 
 {
     private TMP_Text goldText;
     internal int CurrentGold { get; set; }

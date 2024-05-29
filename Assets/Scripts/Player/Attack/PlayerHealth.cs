@@ -28,16 +28,36 @@ public class PlayerHealth : Singleton<PlayerHealth>
     {
         base.Awake();
         soundManager = GameObject.FindGameObjectWithTag("Sounds").GetComponent<SoundsManager>();
-
+        uiDeath = GameObject.FindGameObjectWithTag("UIDeath");
         flash = GetComponent<Flash>();
         knockback = GetComponent<KnockBack>();
+        if (uiDeath == null)
+        {
+            FindUIDeath();
+        }
     }
+    private void Update()
+    {
+        if (uiDeath == null)
+        {
+            uiDeath = GameObject.FindGameObjectWithTag("UIDeath");
+            Debug.Log("Dont ");
+        }
+    }
+    private void FindUIDeath()
+    {
 
+        if (uiDeath == null)
+        {
+            uiDeath = GameObject.FindGameObjectWithTag("UIDeath");
+            Debug.Log("Dont find UIDeath");
+        }
+    }
     private void Start()
     {
         isDead = false;
         currentHealth = maxHealth;
-
+        
         UpdateHealthSlider();
     }
 
@@ -91,12 +111,17 @@ public class PlayerHealth : Singleton<PlayerHealth>
         EconomyManager.Instance.UpdateCurrentGold();
     }
 }
+    public void StartGame()
+    {
+        SceneManager.LoadScene(TOWN_TEXT);
+        ResumeGame();
+        Destroy(gameObject);
 
+    }
     private IEnumerator DeathLoadSceneRoutine()
     {
         yield return new WaitForSeconds(1f);
 
-        PlayerPrefs.DeleteAll();
 
         if (uiDeath != null)
         {
@@ -107,7 +132,16 @@ public class PlayerHealth : Singleton<PlayerHealth>
 
         Destroy(gameObject);
     }
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+    }
 
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+
+    }
     private IEnumerator DamageRecoveryRoutine()
     {
         yield return new WaitForSeconds(damageRecoveryTime);

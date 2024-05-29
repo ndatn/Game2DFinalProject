@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Slime
   - Sounds
+  - UIDeath
+  - UIWin
   layers:
   - Default
   - TransparentFX
@@ -14,8 +16,8 @@ TagManager:
   - Water
   - UI
   - Minimap
-  - 
-  - 
+  - UIDeath
+  - UIWin
   - 
   - 
   - 

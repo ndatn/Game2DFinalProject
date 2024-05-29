@@ -3,11 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class MonsterHealth : MonoBehaviour
 {
     [SerializeField] private int startingHealth = 3;
     [SerializeField] private GameObject deathVFXPrefab;
     [SerializeField] private float knockBackThrust = 15f;
+    [SerializeField] private bool isBoss=false;
+    [SerializeField] private GameObject uiWin;
 
     private int currentHealth;
     private KnockBack knockback;
@@ -22,6 +25,7 @@ public class MonsterHealth : MonoBehaviour
 
         flash = GetComponent<Flash>();
         knockback = GetComponent<KnockBack>();
+
     }
 
     private void Start()
@@ -100,7 +104,22 @@ public class MonsterHealth : MonoBehaviour
         {
             Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
             GetComponent<PickupSpawner>().DropItems();
+            if (isBoss && uiWin!=null) { 
+
+                PauseGame();
+                uiWin.SetActive(true); 
+            }
             Destroy(gameObject);
         }
+    }
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+
     }
 }

@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WhiteFlashMaterial: {fileID: 2100000, guid: b21fa5d98d8deb14bbe7695e19ef524c, type: 2}
-  restoreDefaultMaterialTime: 0.2
+  restoreDefaultMaterialTime: 0.3
 --- !u!114 &2084207818419302141
 MonoBehaviour:
   m_ObjectHideFlags: 0

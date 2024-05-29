@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuController : Singleton<MenuController>
 {
@@ -12,7 +13,6 @@ public class MenuController : Singleton<MenuController>
 
     void Update()
     {
-        // Nếu nhấn phím Escape
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
@@ -49,6 +49,7 @@ public class MenuController : Singleton<MenuController>
         }
 
     }
+
     public void PauseGame()
     {
         Time.timeScale = 0f; 

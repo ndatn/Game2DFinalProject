@@ -102,10 +102,9 @@ public class BossHealth : MonoBehaviour
         {
             Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
             GetComponent<PickupSpawner>().DropItems();
-            if (uiWin != null)
-            {
+            //
                 uiWin.SetActive(true);
-            }
+            
             Destroy(gameObject);
             
         }
